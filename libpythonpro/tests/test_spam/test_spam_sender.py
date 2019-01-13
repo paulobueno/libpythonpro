@@ -5,6 +5,7 @@ def test_create_spam_sender():
     sender = Sender()
     assert sender is not None
 
+
 def test_sender():
     sender = Sender()
     result = sender.send(
