@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="71bcc1de-eaed-4aff-b68d-dfb5a89080ff" name="Default" comment="change to fix flake8 issues">
+    <list default="true" id="71bcc1de-eaed-4aff-b68d-dfb5a89080ff" name="Default" comment="using parametrize">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/libpythonpro/spam/spam_sender.py" beforeDir="false" afterPath="$PROJECT_DIR$/libpythonpro/spam/spam_sender.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/libpythonpro/tests/test_spam/test_spam_sender.py" beforeDir="false" afterPath="$PROJECT_DIR$/libpythonpro/tests/test_spam/test_spam_sender.py" afterDir="false" />
@@ -16,18 +16,19 @@
     <session id="-1739184210">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.44" value="1" />
+          <entry key="project.open.time.53" value="1" />
           <entry key="project.open.time.63" value="1" />
           <entry key="project.open.time.98" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="md" value="1" />
-          <entry key="py" value="2" />
+          <entry key="py" value="3" />
           <entry key="txt" value="5" />
           <entry key="yml" value="2" />
         </counts>
@@ -36,7 +37,7 @@
         <counts>
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="5" />
-          <entry key="Python" value="2" />
+          <entry key="Python" value="3" />
           <entry key="YAML" value="2" />
         </counts>
       </usages-collector>
@@ -49,16 +50,16 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="md" value="1" />
-          <entry key="py" value="268" />
-          <entry key="txt" value="55" />
+          <entry key="py" value="409" />
+          <entry key="txt" value="72" />
           <entry key="yml" value="48" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Markdown" value="1" />
-          <entry key="PLAIN_TEXT" value="55" />
-          <entry key="Python" value="268" />
+          <entry key="PLAIN_TEXT" value="72" />
+          <entry key="Python" value="409" />
           <entry key="YAML" value="48" />
         </counts>
       </usages-collector>
@@ -66,11 +67,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/libpythonpro/tests/test_spam/test_spam_sender.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+            <state relative-caret-position="249">
+              <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -78,11 +79,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/libpythonpro/spam/spam_sender.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="10" lean-forward="true" selection-start-column="10" selection-end-column="10" />
+            <state relative-caret-position="45">
+              <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -125,8 +126,8 @@
         <option value="$PROJECT_DIR$/.travis.yml" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/requirements-dev.txt" />
-        <option value="$PROJECT_DIR$/libpythonpro/spam/spam_sender.py" />
         <option value="$PROJECT_DIR$/libpythonpro/tests/test_spam/test_spam_sender.py" />
+        <option value="$PROJECT_DIR$/libpythonpro/spam/spam_sender.py" />
       </list>
     </option>
   </component>
@@ -213,7 +214,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_spam_sender.test_sender">
+  <component name="RunManager" selected="Python tests.pytest for test_spam_sender.test_invalidemail">
     <configuration name="spam_sender" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="libpythonpro" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -235,19 +236,19 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="py.test in tests" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_spam_sender.test_invalidemail" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="libpythonpro" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/libpythonpro/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/libpythonpro/tests/test_spam" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/libpythonpro/tests&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="_new_target" value="&quot;test_spam_sender.test_invalidemail&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="pytest for test_spam_sender.test_sender" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
@@ -296,19 +297,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.py.test in tests" />
       <item itemvalue="Python tests.pytest in test_spam" />
       <item itemvalue="Python tests.pytest in test_spam_sender.py" />
       <item itemvalue="Python tests.pytest for test_spam_sender.test_sender" />
       <item itemvalue="Python.spam_sender" />
+      <item itemvalue="Python tests.pytest for test_spam_sender.test_invalidemail" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest for test_spam_sender.test_sender" />
+        <item itemvalue="Python tests.pytest for test_spam_sender.test_invalidemail" />
         <item itemvalue="Python tests.pytest in test_spam_sender.py" />
+        <item itemvalue="Python tests.pytest for test_spam_sender.test_sender" />
         <item itemvalue="Python.spam_sender" />
         <item itemvalue="Python tests.pytest in test_spam" />
-        <item itemvalue="Python tests.py.test in tests" />
       </list>
     </recent_temporary>
   </component>
@@ -477,31 +478,17 @@
       <option name="project" value="LOCAL" />
       <updated>1547407485707</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="using parametrize">
+      <created>1547515107894</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1547515107894</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_in_test_spam_sender_py - 2019.01.14 at 22h 57m 43s.xml">
-      <configuration name="pytest in test_spam_sender.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_spam_sender_test_sender - 2019.01.14 at 23h 01m 35s.xml">
-      <configuration name="pytest for test_spam_sender.test_sender" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_test_spam_sender_py - 2019.01.14 at 23h 02m 18s.xml">
-      <configuration name="pytest in test_spam_sender.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_spam_sender_test_sender - 2019.01.14 at 23h 04m 42s.xml">
-      <configuration name="pytest for test_spam_sender.test_sender" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_spam_sender_test_sender - 2019.01.14 at 23h 08m 19s.xml">
-      <configuration name="pytest for test_spam_sender.test_sender" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_spam_sender_test_sender - 2019.01.14 at 23h 09m 20s.xml">
-      <configuration name="pytest for test_spam_sender.test_sender" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_test_spam_sender_py - 2019.01.14 at 23h 09m 39s.xml">
-      <configuration name="pytest in test_spam_sender.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="pytest_in_test_spam_sender_py - 2019.01.14 at 23h 09m 43s.xml">
       <configuration name="pytest in test_spam_sender.py" configurationId="tests" />
     </history-entry>
@@ -511,9 +498,31 @@
     <history-entry file="pytest_for_test_spam_sender_test_sender - 2019.01.14 at 23h 15m 08s.xml">
       <configuration name="pytest for test_spam_sender.test_sender" configurationId="tests" />
     </history-entry>
+    <history-entry file="pytest_for_test_spam_sender_test_sender - 2019.01.14 at 23h 16m 48s.xml">
+      <configuration name="pytest for test_spam_sender.test_sender" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_spam_sender_py - 2019.01.20 at 23h 14m 14s.xml">
+      <configuration name="pytest in test_spam_sender.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_spam_sender_test_invalidemail - 2019.01.20 at 23h 30m 58s.xml">
+      <configuration name="pytest for test_spam_sender.test_invalidemail" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_spam_sender_py - 2019.01.20 at 23h 34m 17s.xml">
+      <configuration name="pytest in test_spam_sender.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_spam_sender_py - 2019.01.20 at 23h 34m 26s.xml">
+      <configuration name="pytest in test_spam_sender.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_spam_sender_py - 2019.01.20 at 23h 37m 20s.xml">
+      <configuration name="pytest in test_spam_sender.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_spam_sender_py - 2019.01.20 at 23h 38m 13s.xml">
+      <configuration name="pytest in test_spam_sender.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27720413" />
       <window_info id="Structure" order="1" weight="0.25" />
@@ -578,7 +587,8 @@
     <MESSAGE value="insert travis for pytest&#10;close #6" />
     <MESSAGE value="commit aula tdd &amp; baby steps" />
     <MESSAGE value="change to fix flake8 issues" />
-    <option name="LAST_COMMIT_MESSAGE" value="change to fix flake8 issues" />
+    <MESSAGE value="using parametrize" />
+    <option name="LAST_COMMIT_MESSAGE" value="using parametrize" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/libpythonpro/tests/.pytest_cache/v/cache/nodeids">
@@ -615,15 +625,15 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
-        </state>
-      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor />
           <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -662,20 +672,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/libpythonpro/spam/spam_sender.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="10" lean-forward="true" selection-start-column="10" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/libpythonpro/tests/test_spam/test_spam_sender.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+        <state relative-caret-position="249">
+          <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libpythonpro/spam/spam_sender.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
         </state>
       </provider>
     </entry>
