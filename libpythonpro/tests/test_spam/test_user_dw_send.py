@@ -1,10 +1,11 @@
+from unittest.mock import Mock
 import pytest
 from libpythonpro.spam.main import SpamSender
 from libpythonpro.spam.models import User
-from libpythonpro.spam.spam_sender import Sender
+from libpythonpro.spam.spam_sender import Mailer
 
 
-class SenderMock(Sender):
+class MailerMock(Mailer):
 
     def __init__(self):
         super().__init__()
@@ -30,27 +31,28 @@ class SenderMock(Sender):
 def test_qty_spam_sender(session, users):
     for user in users:
         session.save(user)
-    sender = SenderMock()
-    spam_sender = SpamSender(session, sender)
+    mailer = Mock()
+    spam_sender = SpamSender(session, mailer)
     spam_sender.send_email(
         'paulob.bruno@gmail.com',
         'Python pro Course',
         'Take a look into the lessons'
     )
-    assert len(users) == sender.qty_sent_emails
+    assert len(users) == mailer.send.call_count
 
 
 def test_spam_parameters(session):
     user = User(name='Rafael', email='rafaelbuenobruno@gmail.com')
     session.save(user)
-    sender = SenderMock()
-    spam_sender = SpamSender(session, sender)
+    mailer = Mock()
+    spam_sender = SpamSender(session, mailer)
     spam_sender.send_email(
         'paulob.bruno@gmail.com',
         'Python pro Course',
         'Take a look into the lessons'
     )
-    assert sender.sending_parameters == (
+    # noinspection PyStatementEffect
+    mailer.send.assert_called_once_with == (
         'paulob.bruno@gmail.com',
         'rafaelbuenobruno@gmail.com',
         'Python pro Course',

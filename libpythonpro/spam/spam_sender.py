@@ -1,4 +1,4 @@
-class Sender:
+class Mailer:
 
     def send(self, sender, receiver, subject, content):
         if '@' not in sender:
