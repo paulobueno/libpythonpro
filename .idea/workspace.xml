@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="71bcc1de-eaed-4aff-b68d-dfb5a89080ff" name="Default" comment="mock">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libpythonpro/tests/test_github_api.py" afterDir="false" />
+    <list default="true" id="71bcc1de-eaed-4aff-b68d-dfb5a89080ff" name="Default" comment="module as an object">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libpythonpro/github_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/libpythonpro/github_api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libpythonpro/tests/test_github_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/libpythonpro/tests/test_github_api.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,83 +13,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/libpythonpro/tests/test_spam/test_users.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/libpythonpro/tests/test_spam/test_user_dw_send.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
-              <folding>
-                <element signature="e#0#30#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/libpythonpro/github_api.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/libpythonpro/tests/test_github_api.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+            <state relative-caret-position="45">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.pyenv/versions/3.6.5/lib/python3.6/unittest/mock.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-11988">
-              <caret line="1015" column="6" selection-start-line="1015" selection-start-column="6" selection-end-line="1015" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.venv/lib/python3.6/site-packages/_pytest/python.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="164" selection-start-line="164" selection-end-line="164" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/libpythonpro/tests/test_spam/conftest.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/libpythonpro/spam/db.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -107,10 +35,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/libpythonpro/spam/spam_sender.py">
+        <entry file="file://$PROJECT_DIR$/libpythonpro/spam/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state>
+              <caret column="6" selection-start-column="6" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/libpythonpro/github_api.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -125,6 +62,9 @@
     </option>
   </component>
   <component name="FindInProjectRecents">
+    <findStrings>
+      <find>'https://avatars0.githubusercontent.com/u/24903100?v=4'</find>
+    </findStrings>
     <replaceStrings>
       <replace />
     </replaceStrings>
@@ -218,13 +158,6 @@
               <item name="libpythonpro" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="libpythonpro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="libpythonpro" type="462c0819:PsiDirectoryNode" />
-              <item name="libpythonpro" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="test_spam" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -248,7 +181,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_github_api.test_avatar_seeker">
+  <component name="RunManager" selected="Python tests.pytest in test_github_api.py">
     <configuration name="pytest for test_github_api.test_avatar_seeker" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="libpythonpro" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -264,18 +197,18 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_user_dw_send.test_qty_spam_sender" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_github_api.test_avatar_seeker_integration" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="libpythonpro" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/libpythonpro/tests/test_spam" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/libpythonpro/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_user_dw_send.test_qty_spam_sender&quot;" />
+      <option name="_new_target" value="&quot;test_github_api.test_avatar_seeker_integration&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -294,18 +227,18 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in test_spam_sender.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest in test_github_api.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="libpythonpro" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/libpythonpro/tests/test_spam" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/libpythonpro/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/libpythonpro/tests/test_spam/test_spam_sender.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/libpythonpro/tests/test_github_api.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
@@ -326,18 +259,18 @@
     </configuration>
     <list>
       <item itemvalue="Python tests.pytest in test_user_dw_send.py" />
-      <item itemvalue="Python tests.pytest for test_user_dw_send.test_qty_spam_sender" />
       <item itemvalue="Python tests.pytest for test_user_dw_send.test_spam_parameters" />
-      <item itemvalue="Python tests.pytest in test_spam_sender.py" />
       <item itemvalue="Python tests.pytest for test_github_api.test_avatar_seeker" />
+      <item itemvalue="Python tests.pytest for test_github_api.test_avatar_seeker_integration" />
+      <item itemvalue="Python tests.pytest in test_github_api.py" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest in test_github_api.py" />
         <item itemvalue="Python tests.pytest for test_github_api.test_avatar_seeker" />
+        <item itemvalue="Python tests.pytest for test_github_api.test_avatar_seeker_integration" />
         <item itemvalue="Python tests.pytest in test_user_dw_send.py" />
         <item itemvalue="Python tests.pytest for test_user_dw_send.test_spam_parameters" />
-        <item itemvalue="Python tests.pytest for test_user_dw_send.test_qty_spam_sender" />
-        <item itemvalue="Python tests.pytest in test_spam_sender.py" />
       </list>
     </recent_temporary>
   </component>
@@ -555,44 +488,50 @@
       <option name="project" value="LOCAL" />
       <updated>1551064586277</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="module as an object">
+      <created>1551577654854</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1551577654854</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_in_test_user_dw_send_py - 2019.02.25 at 00h 09m 29s.xml">
-      <configuration name="pytest in test_user_dw_send.py" configurationId="tests" />
+    <history-entry file="pytest_in_test_github_api_py - 2019.03.02 at 23h 09m 01s.xml">
+      <configuration name="pytest in test_github_api.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_user_dw_send_test_qty_spam_sender - 2019.02.25 at 00h 11m 51s.xml">
-      <configuration name="pytest for test_user_dw_send.test_qty_spam_sender" configurationId="tests" />
+    <history-entry file="pytest_in_test_github_api_py - 2019.03.02 at 23h 09m 23s.xml">
+      <configuration name="pytest in test_github_api.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_user_dw_send_test_spam_parameters - 2019.02.25 at 00h 13m 47s.xml">
-      <configuration name="pytest for test_user_dw_send.test_spam_parameters" configurationId="tests" />
+    <history-entry file="pytest_in_test_github_api_py - 2019.03.02 at 23h 12m 24s.xml">
+      <configuration name="pytest in test_github_api.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_user_dw_send_py - 2019.02.25 at 00h 14m 12s.xml">
-      <configuration name="pytest in test_user_dw_send.py" configurationId="tests" />
+    <history-entry file="pytest_in_test_github_api_py - 2019.03.02 at 23h 14m 56s.xml">
+      <configuration name="pytest in test_github_api.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_user_dw_send_py - 2019.02.25 at 00h 16m 02s.xml">
-      <configuration name="pytest in test_user_dw_send.py" configurationId="tests" />
+    <history-entry file="pytest_in_test_github_api_py - 2019.03.10 at 18h 20m 13s.xml">
+      <configuration name="pytest in test_github_api.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_github_api_test_avatar_seeker - 2019.03.02 at 22h 11m 49s.xml">
+    <history-entry file="pytest_in_test_github_api_py - 2019.03.10 at 18h 21m 21s.xml">
+      <configuration name="pytest in test_github_api.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_github_api_py - 2019.03.10 at 18h 23m 38s.xml">
+      <configuration name="pytest in test_github_api.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_github_api_test_avatar_seeker - 2019.03.10 at 19h 00m 27s.xml">
       <configuration name="pytest for test_github_api.test_avatar_seeker" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_github_api_test_avatar_seeker - 2019.03.02 at 22h 12m 03s.xml">
-      <configuration name="pytest for test_github_api.test_avatar_seeker" configurationId="tests" />
+    <history-entry file="pytest_in_test_github_api_py - 2019.03.10 at 19h 10m 08s.xml">
+      <configuration name="pytest in test_github_api.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_github_api_test_avatar_seeker - 2019.03.02 at 22h 20m 36s.xml">
-      <configuration name="pytest for test_github_api.test_avatar_seeker" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_github_api_test_avatar_seeker - 2019.03.02 at 22h 43m 24s.xml">
-      <configuration name="pytest for test_github_api.test_avatar_seeker" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_github_api_test_avatar_seeker - 2019.03.02 at 22h 46m 53s.xml">
-      <configuration name="pytest for test_github_api.test_avatar_seeker" configurationId="tests" />
+    <history-entry file="pytest_in_test_github_api_py - 2019.03.10 at 19h 22m 32s.xml">
+      <configuration name="pytest in test_github_api.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27720413" />
       <window_info id="Structure" order="1" weight="0.25" />
@@ -675,7 +614,8 @@
     <MESSAGE value="test-code-development" />
     <MESSAGE value="dependecy-injection" />
     <MESSAGE value="mock" />
-    <option name="LAST_COMMIT_MESSAGE" value="mock" />
+    <MESSAGE value="module as an object" />
+    <option name="LAST_COMMIT_MESSAGE" value="module as an object" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
@@ -766,38 +706,83 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.venv/lib/python3.6/site-packages/pluggy/callers.py">
+    <entry file="file://$PROJECT_DIR$/libpythonpro/spam/db.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libpythonpro/spam/spam_sender.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="1134" selection-start-line="1134" selection-end-line="1134" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pycharm/_jb_pytest_runner.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="287">
-          <caret line="207" selection-start-line="207" selection-end-line="207" />
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.venv/lib/python3.6/site-packages/pluggy/manager.py">
+    <entry file="file://$PROJECT_DIR$/.venv/lib/python3.6/site-packages/_pytest/config/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="66" selection-start-line="66" selection-end-line="66" />
+        <state relative-caret-position="130">
+          <caret line="79" selection-start-line="79" selection-end-line="79" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.venv/lib/python3.6/site-packages/pluggy/hooks.py">
+    <entry file="file://$PROJECT_DIR$/.venv/lib/python3.6/site-packages/_pytest/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="283" selection-start-line="283" selection-end-line="283" />
+        <state relative-caret-position="130">
+          <caret line="263" selection-start-line="263" selection-end-line="263" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.venv/lib/python3.6/site-packages/_pytest/runner.py">
+    <entry file="file://$USER_HOME$/.pyenv/versions/3.6.5/lib/python3.6/unittest/mock.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="213">
-          <caret line="127" selection-start-line="127" selection-end-line="127" />
+          <caret line="942" selection-start-line="942" selection-end-line="942" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/libpythonpro/spam/models.py">
+    <entry file="file://$PROJECT_DIR$/.venv/lib/python3.6/site-packages/requests/sessions.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="6" selection-start-column="6" selection-end-column="6" />
+        <state relative-caret-position="138">
+          <caret line="369" selection-start-line="369" selection-end-line="369" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.venv/lib/python3.6/site-packages/requests/api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libpythonpro/tests/test_spam/test_user_dw_send.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-523">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -813,41 +798,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/libpythonpro/tests/test_spam/conftest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+        <state relative-caret-position="285">
+          <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libpythonpro/spam/db.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libpythonpro/spam/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libpythonpro/spam/spam_sender.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libpythonpro/tests/test_spam/test_user_dw_send.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -859,10 +813,52 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.venv/lib/python3.6/site-packages/pluggy/manager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.venv/lib/python3.6/site-packages/pluggy/hooks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="283" selection-start-line="283" selection-end-line="283" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.venv/lib/python3.6/site-packages/_pytest/python.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="164" selection-start-line="164" selection-end-line="164" />
+        <state relative-caret-position="130">
+          <caret line="1356" selection-start-line="1356" selection-end-line="1356" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.venv/lib/python3.6/site-packages/_pytest/runner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="122" selection-start-line="122" selection-end-line="122" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.venv/lib/python3.6/site-packages/pluggy/callers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="197" selection-start-line="197" selection-end-line="197" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libpythonpro/spam/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libpythonpro/spam/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" selection-start-column="6" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -873,17 +869,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.pyenv/versions/3.6.5/lib/python3.6/unittest/mock.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-11988">
-          <caret line="1015" column="6" selection-start-line="1015" selection-start-column="6" selection-end-line="1015" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/libpythonpro/tests/test_github_api.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+        <state relative-caret-position="45">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
           </folding>
