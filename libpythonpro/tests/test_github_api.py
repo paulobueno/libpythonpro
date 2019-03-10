@@ -4,7 +4,7 @@ from libpythonpro import github_api
 
 
 @pytest.fixture
-def avatar_url():
+def avatar_url(mocker):
     resp_mock = Mock()
     url = 'https://avatars0.githubusercontent.com/u/24903100?v=4'
     resp_mock.json.return_value = {
@@ -12,10 +12,9 @@ def avatar_url():
         'id': 24903100,
         'avatar_url': url
     }
-    request_original = github_api.requests.get
-    github_api.requests.get = Mock(return_value=resp_mock)
-    yield url
-    github_api.requests.get = request_original
+    get_mock=mocker.patch('libpythonpro.github_api.requests.get')
+    get_mock.return_value=resp_mock
+    return url
 
 
 def test_avatar_seeker(avatar_url):
@@ -24,5 +23,5 @@ def test_avatar_seeker(avatar_url):
 
 
 def test_avatar_seeker_integration():
-    url = github_api.avatar_seeker('paulobueno')
-    assert 'https://avatars0.githubusercontent.com/u/24903100?v=4' == url
+    url = github_api.avatar_seeker('renzon')
+    assert 'https://avatars3.githubusercontent.com/u/3457115?v=4' == url

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="71bcc1de-eaed-4aff-b68d-dfb5a89080ff" name="Default" comment="module as an object">
+    <list default="true" id="71bcc1de-eaed-4aff-b68d-dfb5a89080ff" name="Default" comment="mudoles-isolation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/libpythonpro/tests/test_github_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/libpythonpro/tests/test_github_api.py" afterDir="false" />
     </list>
@@ -16,38 +16,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/libpythonpro/tests/test_github_api.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="219">
+              <caret line="16" column="14" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/libpythonpro/spam/main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/libpythonpro/spam/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="6" selection-start-column="6" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/libpythonpro/github_api.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -158,6 +131,13 @@
               <item name="libpythonpro" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="libpythonpro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="libpythonpro" type="462c0819:PsiDirectoryNode" />
+              <item name="libpythonpro" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="test_spam" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -267,8 +247,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.pytest in test_github_api.py" />
-        <item itemvalue="Python tests.pytest for test_github_api.test_avatar_seeker" />
         <item itemvalue="Python tests.pytest for test_github_api.test_avatar_seeker_integration" />
+        <item itemvalue="Python tests.pytest for test_github_api.test_avatar_seeker" />
         <item itemvalue="Python tests.pytest in test_user_dw_send.py" />
         <item itemvalue="Python tests.pytest for test_user_dw_send.test_spam_parameters" />
       </list>
@@ -495,28 +475,17 @@
       <option name="project" value="LOCAL" />
       <updated>1551577654854</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="mudoles-isolation">
+      <created>1552258727836</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1552258727836</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_in_test_github_api_py - 2019.03.02 at 23h 09m 01s.xml">
-      <configuration name="pytest in test_github_api.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_test_github_api_py - 2019.03.02 at 23h 09m 23s.xml">
-      <configuration name="pytest in test_github_api.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_test_github_api_py - 2019.03.02 at 23h 12m 24s.xml">
-      <configuration name="pytest in test_github_api.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_test_github_api_py - 2019.03.02 at 23h 14m 56s.xml">
-      <configuration name="pytest in test_github_api.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_test_github_api_py - 2019.03.10 at 18h 20m 13s.xml">
-      <configuration name="pytest in test_github_api.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_test_github_api_py - 2019.03.10 at 18h 21m 21s.xml">
-      <configuration name="pytest in test_github_api.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="pytest_in_test_github_api_py - 2019.03.10 at 18h 23m 38s.xml">
       <configuration name="pytest in test_github_api.py" configurationId="tests" />
     </history-entry>
@@ -527,6 +496,24 @@
       <configuration name="pytest in test_github_api.py" configurationId="tests" />
     </history-entry>
     <history-entry file="pytest_in_test_github_api_py - 2019.03.10 at 19h 22m 32s.xml">
+      <configuration name="pytest in test_github_api.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_github_api_py - 2019.03.10 at 19h 54m 58s.xml">
+      <configuration name="pytest in test_github_api.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_github_api_py - 2019.03.10 at 20h 03m 14s.xml">
+      <configuration name="pytest in test_github_api.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_github_api_py - 2019.03.10 at 20h 03m 47s.xml">
+      <configuration name="pytest in test_github_api.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_github_api_test_avatar_seeker_integration - 2019.03.10 at 20h 04m 42s.xml">
+      <configuration name="pytest for test_github_api.test_avatar_seeker_integration" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_github_api_py - 2019.03.10 at 20h 04m 47s.xml">
+      <configuration name="pytest in test_github_api.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_github_api_py - 2019.03.10 at 20h 16m 11s.xml">
       <configuration name="pytest in test_github_api.py" configurationId="tests" />
     </history-entry>
   </component>
@@ -615,7 +602,8 @@
     <MESSAGE value="dependecy-injection" />
     <MESSAGE value="mock" />
     <MESSAGE value="module as an object" />
-    <option name="LAST_COMMIT_MESSAGE" value="module as an object" />
+    <MESSAGE value="mudoles-isolation" />
+    <option name="LAST_COMMIT_MESSAGE" value="mudoles-isolation" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
@@ -629,9 +617,6 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/libpythonpro/tests/.pytest_cache/v/cache/lastfailed">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libpythonpro/tests/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/.travis.yml">
@@ -692,24 +677,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/libpythonpro/tests/test_example.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Library/Caches/PyCharmCE2018.2/python_stubs/-896294625/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1154">
           <caret line="3602" column="8" selection-start-line="3602" selection-start-column="8" selection-end-line="3602" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libpythonpro/spam/db.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -796,16 +767,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/libpythonpro/tests/test_spam/conftest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/libpythonpro/tests/test_spam/test_users.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -848,6 +809,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/libpythonpro/tests/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libpythonpro/tests/test_example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libpythonpro/tests/test_spam/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libpythonpro/tests/test_spam/conftest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libpythonpro/spam/db.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/libpythonpro/spam/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -871,8 +862,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/libpythonpro/tests/test_github_api.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="219">
+          <caret line="16" column="14" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
           </folding>
